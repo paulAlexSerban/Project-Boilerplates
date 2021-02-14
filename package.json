@@ -1,0 +1,24 @@
+{
+  "name": "project-boilerplate",
+  "version": "1.0.0",
+  "description": "## Description NodeJS script to create the usual project boilerplate for personal projects.",
+  "main": "projectBuilder.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulAlexSerban/Project-Boilerplate.git"
+  },
+  "author": "Paul Serban <serban.paul.91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulAlexSerban/Project-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/paulAlexSerban/Project-Boilerplate#readme"
+}
