@@ -1,0 +1,398 @@
+[
+  {
+    "type": "directory",
+    "name": "src",
+    "content" : [
+      {
+        "type": "directory",
+        "name": "abstracts",
+        "content" : [
+          {
+            "type": "directory",
+            "name": "js",
+            "content" : [
+              {
+                "type": "js",
+                "name": "utils",
+                "definition": "// JavaScript file"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "style",
+            "content" : [
+              {
+                "type": "scss",
+                "name": "variables",
+                "definition": "# Sass file"
+              },
+              {
+                "type": "scss",
+                "name": "mixins",
+                "definition": "# Sass file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type" : "directory",
+        "name": "assets",
+        "content": [
+          {
+            "type": "directory",
+            "name": "fonts"
+          },
+          {
+            "type": "directory",
+            "name": "icons"
+          },
+          {
+            "type": "directory",
+            "name": "images"
+          }
+        ]
+      },
+      {
+        "type" : "directory",
+        "name": "base",
+        "content": [
+          {
+            "type" : "directory",
+            "name": "js"
+          },
+          {
+            "type" : "directory",
+            "name": "style",
+            "content": [
+              {
+                "type": "scss",
+                "name": "reset",
+                "definition": "# Sass file"
+              },
+              {
+                "type": "scss",
+                "name": "typography",
+                "definition": "# Sass file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type" : "directory",
+        "name": "components",
+        "content": [
+          {
+            "type" : "directory",
+            "name": "js",
+            "content": [
+              {
+                "type" : "js",
+                "name": "button",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type" : "js",
+                "name": "carousel",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type" : "js",
+                "name": "cover",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type" : "js",
+                "name": "dropdown",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type" : "js",
+                "name": "input",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type" : "js",
+                "name": "checkbox",
+                "definition": "// JavaScript file"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "style",
+            "content": [
+              {
+                "type" : "scss",
+                "name": "button",
+                "definition": "# Sass file"
+              },
+              {
+                "type" : "scss",
+                "name": "carousel",
+                "definition": "# Sass file"
+              },
+              {
+                "type" : "scss",
+                "name": "cover",
+                "definition": "# Sass file"
+              },
+              {
+                "type" : "scss",
+                "name": "dropdown",
+                "definition": "# Sass file"
+              },
+              {
+                "type" : "scss",
+                "name": "input",
+                "definition": "# Sass file"
+              },
+              {
+                "type" : "scss",
+                "name": "checkbox",
+                "definition": "# Sass file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type" : "directory",
+        "name": "config",
+        "content": [
+          {
+            "type" : "js",
+            "name" : "webpack.config",
+            "definition": "// webpack configuration file"
+          }
+        ]
+      },
+      {
+        "type" : "directory",
+        "name": "index",
+        "content": [
+          {
+            "type" : "html",
+            "name" : "index",
+            "definition": "<!-- HTML file -->"
+          },
+          {
+            "type" : "js",
+            "name" : "index",
+            "definition": "// JavaScript file"
+          },
+          {
+            "type" : "scss",
+            "name" : "index",
+            "definition": "# Sass file"
+          }
+        ]
+      },
+      {
+        "type" : "directory",
+        "name": "layout",
+        "content": [
+          {
+            "type" : "directory",
+            "name": "js",
+            "content": [
+              {
+                "type" : "js",
+                "name": "footer",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type" : "js",
+                "name": "header",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type" : "js",
+                "name": "grid",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type" : "js",
+                "name": "navigation",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type" : "js",
+                "name": "sidebar",
+                "definition": "// JavaScript file"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "style",
+            "content": [
+              {
+                "type" : "scss",
+                "name": "footer",
+                "definition": "# Sass file"
+              },
+              {
+                "type" : "scss",
+                "name": "header",
+                "definition": "# Sass file"
+              },
+              {
+                "type" : "scss",
+                "name": "grid",
+                "definition": "# Sass file"
+              },
+              {
+                "type" : "scss",
+                "name": "navigation",
+                "definition": "# Sass file"
+              },
+              {
+                "type" : "scss",
+                "name": "sidebar",
+                "definition": "# Sass file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type" : "directory",
+        "name": "pages",
+        "content": [
+          {
+            "type" : "directory",
+            "name": "js",
+            "content": [
+              {
+                "type" : "js",
+                "name": "about",
+                "definition": "// JavaScript file"
+              },               
+              {
+                "type" : "js",
+                "name": "contact",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type" : "js",
+                "name": "home",
+                "definition": "// JavaScript file"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "style",
+            "content": [
+              {
+                "type" : "scss",
+                "name": "about",
+                "definition": "# Sass file"
+              },               {
+                "type" : "scss",
+                "name": "contact",
+                "definition": "# Sass file"
+              },
+              {
+                "type" : "scss",
+                "name": "home",
+                "definition": "# Sass file"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "html",
+            "content": [
+              {
+                "type" : "html",
+                "name": "about",
+                "definition": "<!-- HTML file -->"
+              },               
+              {
+                "type" : "html",
+                "name": "contact",
+                "definition": "<!-- HTML file -->"
+              },
+              {
+                "type" : "html",
+                "name": "home",
+                "definition": "<!-- HTML file -->"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type" : "directory",
+        "name": "themes",
+        "content": [
+          {
+            "type" : "directory",
+            "name": "js",
+            "content": [
+              {
+                "type" : "js",
+                "name" : "admin",
+                "definition": "// JavaScript file"
+              },
+              {
+                "type": "js",
+                "name": "theme",
+                "definition": "// JavaScript file"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "style",
+            "content": [
+              {
+                "type" : "scss",
+                "name" : "admin",
+                "definition": "# Sass file"
+              },
+              {
+                "type": "scss",
+                "name": "theme",
+                "definition": "# Sass file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type" : "directory",
+        "name": "vendors",
+        "content": [
+          {
+            "type" : "directory",
+            "name": "js",
+            "content": [
+              {
+                "type" : "js",
+                "name": "jQuery",
+                "definition": "// jQuery script"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "style",
+            "content": [
+              {
+                "type": "scss",
+                "name": "boostrap",
+                "definition": "# Sass file"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+
