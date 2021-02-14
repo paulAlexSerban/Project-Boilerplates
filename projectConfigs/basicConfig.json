@@ -1,0 +1,58 @@
+[
+  {
+    "type": "md",
+    "name": "readme",
+    "definition": "readme file written with markdown"
+  },
+  {
+    "type": "js",
+    "name": "webpack.config",
+    "definition": "webpack config file"
+  },
+  {
+    "type": "html",
+    "name": "index",
+    "definition": "<!-- HTML file -->"
+  },
+  {
+    "type": "directory",
+    "name": "html",
+    "content": [
+      {
+        "type": "html",
+        "name": "contact",
+        "definition": "<!-- HTML file -->"
+      },
+      {
+        "type": "html",
+        "name": "about",
+        "definition": "<!-- HTML file -->"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "styles",
+    "content": [
+      {
+        "type": "scss",
+        "name": "styles",
+        "definition": "# main styles file"
+      },
+      {
+        "type": "scss",
+        "name": "contact",
+        "definition": "# contact page styles file"
+      },
+      {
+        "type": "scss",
+        "name": "about",
+        "definition": "# about page styles file"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "scripts"
+  }
+]
